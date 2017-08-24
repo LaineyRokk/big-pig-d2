@@ -1,0 +1,17 @@
+h1 {
+  text-align: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to right, #DB7093, #66CDAA);
+  background: linear-gradient(to right, #66CDAA, #DB7093);
+  font-family: Courier;
+  font-weight: bold;
+  position: relative;
+  height: auto;
+  color: #2F4F4F;
+}

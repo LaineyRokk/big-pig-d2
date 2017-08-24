@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <title>Big Pig</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Click the button to play pig dice with friends!</h1>
+      </div>
+      <div class="player-1-section active-0">
+      <div class="game-board">
+        <div class="player-name" id="name-0">Player 1</div>
+        <div class="player-score-0" id="score-0">43</div>
+        <div class="player-0-rolled-1">Crap! You rolled a 1</div>
+        <div class="player-current-box-0">
+          <div class="player-current-label">Current</div>
+          <div class="player-current-score" id="current-0"></div>
+        </div>
+      </div>
+      <div class="rules-section" style="display:none">
+        <h2>To Win</h2>
+        <p>Be the first to reach a 100 and be the WINNER!</p>
+      </div>
+      </div>
+
+      <div class="player-2-section">
+      <div class="game-board">
+        <div class="player-name" id="name-2">Player 2</div>
+      <div class="player-score-1" id="score-1">72</div>
+      <div class="player-2-rolled-1">Crap! You rolled a 1</div>
+      <div class="player-current-box-1">
+        <div class="player-current-label">Current</div>
+        <div class="player-current-score" id="current-1">0</div>
+      </div>
+      </div>
+    <div class="rules-section" style="display:none">
+      <h2>How to Play<h2>
+      <p>The first player is going to roll the die repeatedly, adding up each roll's number until either:</p>
+        <ul>
+          <li>A 1 is rolled</li>
+          <li>The player chooses to 'Hold'</li>
+        </ul>
+          <br>
+          <p>If a player elects to 'Hold,' the accumilated numer of that turn's rolls will be added to their score total</p>
+        <button class="btn-back"><i class="ion-ios-arrow-left color-0"></i>Back to Game</button>
+      </div>
+      </div>
+        <div class="game-board">
+
+        <button class="btn-new"><i class="ion-ios-plus-online icon color-0">New Game</button>
+        <button class="btn-rules"><i class="ion-ios-compose-outline icon color-0"></i>Rules</button>
+        <button class="btn-roll"><i class="ion-ios-loop icon color-0"></i>Roll Die</button>
+        <button class="btn-hold"><i class="ion-ios-download-outline icon color-0"></i>Hold</button>
+
+      </div>
+
+    </div>
+  </body>
+</html>
