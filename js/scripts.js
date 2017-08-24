@@ -118,16 +118,16 @@ function init() {
 	document.querySelector('.dice').style.display = 'none';
 	document.getElementById('score-0').textContent = '0';
 	document.getElementById('score-1').textContent = '0';
-	document.getElementById('current-0').textContent = '0';
 	document.getElementById('current-1').textContent = '0';
-	document.querySelector('.player-0-rolled-1').style.visibility = 'hidden';
+	document.getElementById('current-2').textContent = '0';
 	document.querySelector('.player-1-rolled-1').style.visibility = 'hidden';
+	document.querySelector('.player-2-rolled-1').style.visibility = 'hidden';
 
-	document.querySelector('#name-0').textContent = 'Player 1';
-	document.querySelector('#name-1').textContent = 'Player 2';
-	document.querySelector('.player-0-panel').classList.add('active-0');
-	document.querySelector('.player-0-panel').classList.remove('winner-0');
-	document.querySelector('.player-1-panel').classList.remove('winner-1');
+	document.querySelector('#name-1').textContent = 'Player 1';
+	document.querySelector('#name-2').textContent = 'Player 2';
+	document.querySelector('.player-1-section').classList.add('active-0');
+	document.querySelector('.player-1-section').classList.remove('winner-1');
+	document.querySelector('.player-2-section').classList.remove('winner-2');
 
 }
 
@@ -147,8 +147,8 @@ function nextPlayer() {
 			icons[i].classList.add('color-' + activePlayer);
 		}
 		document.querySelector('.player-' + activePlayer + '-panel').classList.add('active-' + activePlayer);
-		document.querySelector('#current-0').textContent = '0';
 		document.querySelector('#current-1').textContent = '0';
+		document.querySelector('#current-2').textContent = '0';
 }
 
 function disableBtn(btn, time) {

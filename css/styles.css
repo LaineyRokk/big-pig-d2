@@ -15,3 +15,54 @@ body {
   height: auto;
   color: #2F4F4F;
 }
+
+.player-1-section,
+.player-2-section {
+  width: 50%;
+  float: left;
+  height: 700px;
+  padding: 50px;
+}
+
+.player-name {
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.player-score-0 {
+  text-align: center;
+  font-size: 80px;
+
+}
+
+.player-score-1 {
+  text-align: center;
+  font-size: 80px;
+}
+
+.player-1-rolled-1 {
+  text-align: center
+}
+
+.player-2-rolled-1 {
+  text-align: center;
+}
+
+.player-current-box-1 {
+  background-color: #F5F5F5;
+  color: #2F4f4f
+  width: auto;
+  margin: 0 auto;
+  padding: 15px;
+  text-align: center;
+}
+
+.player-current-box-2 {
+  background-color: #F5F5F5;
+  color: #2F4f4f
+  width: auto;
+  margin: 0 auto;
+  padding: 15px;
+  text-align: center;
+}
